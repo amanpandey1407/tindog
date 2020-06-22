@@ -1,0 +1,167 @@
+#title{
+
+  background-color: #c70039;
+}
+
+h1{
+  font-family: 'Exo', sans-serif;
+  font-size: 4rem;
+
+}
+h2{
+
+  font-style: Montserrat;
+  font-size: 3.2rem;
+  line-height: 1.5;
+}
+
+h3{
+  font-size: 1.4rem;
+  font-family: 'Exo';
+}
+p
+{
+  color: grey;
+}
+
+.container-fluid{
+  padding: 3% 15% 7%;
+
+}
+
+.navbar-brand{
+
+  font-family:Ubuntu;
+  font-size: 3rem;
+  margin: 0;
+  padding: 0;
+}
+
+.title-heading{
+  color: white;
+  padding-bottom: 3rem;
+
+
+}
+
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+
+.navbar{
+  padding :0 0 4.5rem;
+
+
+}
+
+.nav-item {
+  padding: 0 1.5rem;
+}
+.nav-link{
+  font-size: 1.4rem;
+}
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+.title-image{
+  width: 60%;
+  transform:rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+
+#features{
+    padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+  }
+
+.feature-section{
+  text-align:center;
+  padding: 5%;
+}
+
+.icon{
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+.icon:hover{
+  color: #c70039;
+}
+
+#testimonials{
+
+  text-align:center;
+  background-color: #ef8172;
+  color: white;
+
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+
+.testimonial-image{
+
+  width: 10%;
+  border-radius: 100%;
+  margin: 5%;
+
+}
+#press{
+  text-align: center;
+  background-color: #ef8172;
+
+}
+.press-logo{
+
+  width: 15%;
+  margin: 20px 40px 50px;
+
+  }
+
+#pricing{
+
+  padding: 7% 10%;
+  text-align: center;
+}
+
+.price-col{
+  padding: 3% 2%;
+
+}
+
+@media (max-width : 1028px) {
+
+  #title{
+    text-align: center;
+  }
+  .title-image{
+    position: static;
+    transform: rotate(0);
+
+  }
+
+}
+
+#cta{
+  font-family: 'Montserrat';
+
+  text-align:center;
+  background-color: #c70039;
+}
+.cta-text{
+  font-size: 2.8rem;
+  color: #fff;
+
+  padding: 10% 30% 0;
+}
+
+#footer{
+  text-align: center;
+  margin-top: 5%;
+}
+
+.logo{
+  margin: 1% 1%;
+}
